@@ -9,11 +9,19 @@ function addNumbers(a, b) {
     console.info('primul numar este ' + a);
     console.info('al doilea numar este ' + b);
 
-    for (; b > 0;) {
-        b--; // luam un deget de la b
-        a++; // punem un deget la a
-        console.info(a + ' - au mai ramas ' + b + ' degetele');
+    var suma = a; // numarul cel mai mare
+    var degete = b; // numarul cel mai mic
+
+    if (a < b);
+        suma = b;
+        degete = a;
+
+
+    for (; degete > 0;) {
+        degete--; // luam un deget de la b
+        suma++; // punem un deget la a
+        console.info(suma + ' - au mai ramas ' + degete + ' degete');
     }
-    console.info('suma este: ' +a);
+    console.info('suma este: ' +suma);
 }
-var count = addNumbers(12, 13);
+var count = addNumbers(2, 6);
