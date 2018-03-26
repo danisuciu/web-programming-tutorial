@@ -24,4 +24,22 @@ function addNumbers(a, b) {
     }
     console.info('suma este: ' +suma);
 }
-var count = addNumbers(6, 16);
+// var count = addNumbers(6, 16);
+
+function isNumberPrime(n) {
+    for(var i = 2 ; i < n; i++) {
+        if(n%i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function showPrimeNumbersTo(n) {
+    for (var i = 5; i <= n; i++){
+        if (i%2 && i%3 && i%4){
+            console.info(i);
+        }
+    }
+}
+showPrimeNumbersTo(25);
