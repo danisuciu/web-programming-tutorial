@@ -5,8 +5,8 @@ function getRow(firstName, lastName, phone){
 var persons = [
     // firstName, lastName, phone
     ["Daniel", "Suciu", "07430743"],
-    ["Andrei", "Ille", "07450745"],
-    ["Filip", "Ille", "07460746"]
+    ["Andrei", "Vasile", "07450745"],
+    ["Filip", "Tomas", "07460746"]
 ];
 
 var rows = '';
